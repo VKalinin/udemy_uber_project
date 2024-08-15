@@ -1,0 +1,253 @@
+/* line 1, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 3, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+header {
+  position: relative;
+  background-color: #212121;
+}
+
+/* line 6, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  height: 50px;
+  background-color: #212121;
+}
+
+/* line 12, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 13px 70px;
+  list-style-type: none;
+}
+
+/* line 18, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.menu .menu_link {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 48px;
+}
+
+/* line 26, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 87px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 32, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.subheader .subheader_logo {
+  display: block;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 42, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.subheader .subheader_call {
+  color: #FFF;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+}
+
+/* line 48, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #FFF;
+  text-align: right;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+/* line 58, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+
+/* line 73, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.promo {
+  min-height: 800px;
+  background: url(../img/uber_bg.png) center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 77, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.promo .promo_header {
+  color: #FFF;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* line 85, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.promo .promo_subheader {
+  margin: 0;
+  margin-top: 22px;
+  color: #FFF;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* line 94, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.promo .promo_descr {
+  margin-top: 23px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 101, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 63px;
+  text-transform: uppercase;
+}
+
+/* line 117, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 119, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 124, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.reasons .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 133, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.reasons .reasons_block .reasons_descr {
+  width: 343px;
+}
+
+/* line 135, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 140, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.reasons .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 145, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 156, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 164, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.subtitle {
+  color: #222;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 19px;
+}
+
+/* line 170, ../../../../../../../../../../../../../Users/vladkalinin/Documents/projects/udemy_2_project/src/sass/style.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
